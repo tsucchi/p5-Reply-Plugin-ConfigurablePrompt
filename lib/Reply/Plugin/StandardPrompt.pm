@@ -29,6 +29,7 @@ sub prompt {
         package main;
         my $prompt = $self->{prompt_string};
         $result = eval "$prompt" if ( $prompt );
+        die $@ if ( $@ );
     }
     return $result ? $result                     # configured prompt
                    : $history_count . $next->(); # same as FancyPrompt
