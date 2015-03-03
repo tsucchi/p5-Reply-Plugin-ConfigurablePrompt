@@ -1,6 +1,6 @@
 # NAME
 
-Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
+Reply::Plugin::StandardPrompt - Configurable prompt for reply
 
 # SYNOPSIS
 
@@ -10,7 +10,7 @@ Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
 
 # DESCRIPTION
 
-Reply::Plugin::ConfigurablePrompt is plugin for Reply. This plugin provides configurable prompt.
+Reply::Plugin::StandardPrompt is plugin for Reply. This plugin provides configurable prompt.
 
 # NOTE
 
@@ -24,7 +24,7 @@ You can use any perl syntax in prompt section. variables and functions are usabl
 
 ## $history\_count
 
-history count is number of commands executed count.
+the history number of this command
 
 # LICENSE
 

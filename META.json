@@ -4,7 +4,7 @@
       "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "Minilla/v2.3.0, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Reply-Plugin-StandardPrompt",
+   "name" : "Reply-Plugin-ConfigurablePrompt",
    "no_index" : {
       "directory" : [
          "t",
@@ -67,5 +67,8 @@
          "web" : "https://github.com/tsucchi/p5-Reply-Plugin-StandardPrompt"
       }
    },
-   "version" : "0.01"
+   "version" : "0.01",
+   "x_contributors" : [
+      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
+   ]
 }
