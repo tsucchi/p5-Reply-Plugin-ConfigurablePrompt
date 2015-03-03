@@ -52,17 +52,17 @@ __END__
 
 =head1 NAME
 
-Reply::Plugin::StandardPrompt - Configurable prompt for reply
+Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
 
 =head1 SYNOPSIS
 
     ; in your .replyrc use following instead of [FancyPrompt] (or other prompt plugin)
-    [StandardPrompt]
+    [ConfigurablePrompt]
     prompt="reply $history_count $ "
 
 =head1 DESCRIPTION
 
-Reply::Plugin::StandardPrompt is plugin for Reply. This plugin provides configurable prompt.
+Reply::Plugin::ConfigurablePrompt is plugin for Reply. This plugin provides configurable prompt.
 
 =head1 NOTE
 
