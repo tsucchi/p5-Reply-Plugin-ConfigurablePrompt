@@ -1,6 +1,6 @@
 # NAME
 
-Reply::Plugin::StandardPrompt - Configurable prompt for reply
+Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
 
 # SYNOPSIS
 
@@ -10,7 +10,7 @@ Reply::Plugin::StandardPrompt - Configurable prompt for reply
 
 # DESCRIPTION
 
-Reply::Plugin::StandardPrompt is plugin for Reply. This plugin provides configurable prompt.
+Reply::Plugin::ConfigurablePrompt is plugin for Reply. This plugin provides configurable prompt.
 
 # NOTE
 

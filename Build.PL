@@ -24,7 +24,7 @@ my %args = (
     },
 
     name            => 'Reply-Plugin-StandardPrompt',
-    module_name     => 'Reply::Plugin::StandardPrompt',
+    module_name     => 'Reply::Plugin::ConfigurablePrompt',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],
