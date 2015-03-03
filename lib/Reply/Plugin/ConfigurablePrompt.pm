@@ -50,6 +50,8 @@ __END__
 
 =encoding utf-8
 
+=for stopwords configurable
+
 =head1 NAME
 
 Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
