@@ -6,12 +6,11 @@ use warnings;
 
 our $VERSION = "0.01";
 
-our $history_count = 0;
+my $history_count = 0;
 
 sub new {
     my $class = shift;
     my %opts  = @_;
-
 
     my $self = $class->SUPER::new(@_);
     $self->{prompt_string} = $opts{prompt};
@@ -25,14 +24,15 @@ sub prompt {
     my ($next) = @_;
     $self->{prompted} = 1;
     my $result = "";
-    {
+    my $prompt = $self->{prompt_string};
+    if ( $prompt ) {
         package main;
-        my $prompt = $self->{prompt_string};
+
         $result = eval "$prompt" if ( $prompt );
         die $@ if ( $@ );
     }
     return $result ? $result                     # configured prompt
-                   : $history_count . $next->(); # same as FancyPrompt
+                   : $history_count . $next->(); # default prompt
 }
 
 sub loop {
@@ -76,7 +76,7 @@ You can use any perl syntax in prompt section. variables and functions are usabl
 
 =head2 $history_count
 
-history count is number of commands executed count.
+the history number of this command
 
 =head1 LICENSE
 
