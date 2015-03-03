@@ -58,17 +58,14 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/tsucchi/p5-Reply-Plugin-StandardPrompt/issues"
+         "web" : "https://github.com/tsucchi/p5-Reply-Plugin-ConfigurablePrompt/issues"
       },
-      "homepage" : "https://github.com/tsucchi/p5-Reply-Plugin-StandardPrompt",
+      "homepage" : "https://github.com/tsucchi/p5-Reply-Plugin-ConfigurablePrompt",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/tsucchi/p5-Reply-Plugin-StandardPrompt.git",
-         "web" : "https://github.com/tsucchi/p5-Reply-Plugin-StandardPrompt"
+         "url" : "git://github.com/tsucchi/p5-Reply-Plugin-ConfigurablePrompt.git",
+         "web" : "https://github.com/tsucchi/p5-Reply-Plugin-ConfigurablePrompt"
       }
    },
-   "version" : "0.01",
-   "x_contributors" : [
-      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
-   ]
+   "version" : "0.01"
 }
