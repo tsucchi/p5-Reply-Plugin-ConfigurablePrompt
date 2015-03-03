@@ -1,16 +1,16 @@
 # NAME
 
-Reply::Plugin::StandardPrompt - Configurable prompt for reply
+Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
 
 # SYNOPSIS
 
     ; in your .replyrc use following instead of [FancyPrompt] (or other prompt plugin)
-    [StandardPrompt]
+    [ConfigurablePrompt]
     prompt="reply $history_count $ "
 
 # DESCRIPTION
 
-Reply::Plugin::StandardPrompt is plugin for Reply. This plugin provides configurable prompt.
+Reply::Plugin::ConfigurablePrompt is plugin for Reply. This plugin provides configurable prompt.
 
 # NOTE
 
