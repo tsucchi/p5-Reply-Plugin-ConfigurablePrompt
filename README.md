@@ -6,7 +6,7 @@ Reply::Plugin::ConfigurablePrompt - Configurable prompt for reply
 
     ; in your .replyrc use following instead of [FancyPrompt] (or other prompt plugin)
     [ConfigurablePrompt]
-    prompt="reply $history_count $ "
+    prompt="reply $history_count \$ "
 
 # DESCRIPTION
 
